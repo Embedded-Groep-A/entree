@@ -1,0 +1,52 @@
+name: L & B Entree Docs
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "**.cpp"
+      - "**.h"
+
+jobs:
+  doxygen:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          submodules: "true"
+
+      - name: Set Version
+        run: echo "PROJECT_NUMBER = commit-`git log -n 1 --pretty=format:'%h'`" >> Doxyfile
+
+      - name: Install Doxygen
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install doxygen graphviz -y
+        shell: bash
+
+      - name: Generate Doxygen HTML
+        run: doxygen Doxyfile
+        shell: bash
+
+      - name: Create .nojekyll (ensures pages with underscores work on gh pages)
+        run: touch docs/html/.nojekyll
+        shell: bash
+
+      - name: Deploy to GitHub branch gh-pages
+        if: ${{ github.ref == 'refs/heads/main' }}
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: docs/html
+
+      # - name: Execute Pterodactyl Power Action
+      #   if: ${{ github.ref == 'refs/heads/main' }}
+      #   uses: D3OXY/pterodactyl-power@V1
+      #   with:
+      #     PANEL_URL: "https://pte.nucs.me"
+      #     API_KEY: ${{ secrets.PTERODACTYL_API_KEY }}
+      #     SERVER_ID: ${{ secrets.PTERODACTYL_SERVER_ID }}
+      #     POWER_ACTION: "RESTART"

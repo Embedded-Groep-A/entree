@@ -15,6 +15,11 @@
   *
   ******************************************************************************
   */
+  /*!
+   * \file main.cpp
+   * \brief Main sourcecode file of Trappenhuis
+   *      Documentation:  https://embedded-groep-a.github.io/entree/
+   */
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include <TrappenhuisSTM.h>

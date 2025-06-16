@@ -19,6 +19,11 @@
 /* USER CODE END Header */
 
 /* Define to prevent recursive inclusion -------------------------------------*/
+/*!
+ * \file TrappenhuisSTM.h
+ * \brief Header file for sourcecode of Trappenhuis
+ *      Documentation:  https://embedded-groep-a.github.io/entree/
+ */
 #ifndef __MAIN_H
 #define __MAIN_H
 

@@ -21,7 +21,7 @@ Servo deurServoAchter;
 bool noodstopActief = false;
 int lastNoodstopState = HIGH;
 
-void initSTMEntree() {
+void setup() {
   Serial.begin(115200);
   RS485Serial.begin(9600);
 
@@ -78,7 +78,7 @@ void openDeurBrand() {
   deurServoAchter.write(180);
 }
 
-void verwerkLoop() {
+void Loop() {
   // RS485 uitlezen per karakter, met lokale buffer
   static char rs485Buffer[64];
   static size_t idx = 0;

@@ -7,10 +7,6 @@
 #include <Arduino.h>
 #include <Servo.h>
 
-/**
- * @brief Initialiseert pinnen, servomotoren en seriële communicatie.
- */
-void initSTMEntree();
 
 /**
  * @brief Opent de deuren van buitenaf (voorste deur, daarna achterste deur).
@@ -32,7 +28,3 @@ void verwerkDeurbel();
  */
 void openDeurBrand();
 
-/**
- * @brief Verwerkt RS485-invoer, knoppen en noodstop. Aanroepen vanuit loop().
- */
-void verwerkLoop();

@@ -1,8 +1,3 @@
-/**
- * @file STMEntree.cpp
- * @brief Implementatie van de STM32-gebaseerde entreecontroller met servoaandrijving en RS485.
- */
-
 #include "STMEntree.h"
 #include <PinNames.h>
 

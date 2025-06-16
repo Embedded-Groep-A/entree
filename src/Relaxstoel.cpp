@@ -1,4 +1,3 @@
-
 #include "WifiSocket.h"
 #include <Arduino.h>
 #include <ESP8266WiFi.h>
@@ -13,7 +12,7 @@ int port = 8181;
 WiFiSocket wifiSocket;                     
 
 // GPIO-pinnen voor output
-#define MOTOR_PIN D1                       //Output pin voor het stoelmotor-signaal
+#define MOTOR_PIN D1                       // Output pin voor het stoelmotor-signaal
 #define SCHEMER_PIN D2                     // Output pin voor de schemerlamp
 
 /**

@@ -1,4 +1,3 @@
-
 #include <SPI.h>
 #include <MFRC522.h>
 #include <Arduino.h>
@@ -12,13 +11,12 @@ const char *password = "NSELabWiFi";
 const char *host = "145.52.127.103";      
 const int port = 8181;                     
 
-WiFiSocket wifiSocket;                     // Socket-object voor communicatie via WiFi
-
+WiFiSocket wifiSocket;                     
 /// RFID pinnen op de Wemos D1 mini
 #define RST_PIN D3                         // Reset-pin van de MFRC522-module
 #define SS_PIN  D4                         // Slave Select-pin van de MFRC522-module
 
-MFRC522 mfrc522(SS_PIN, RST_PIN);          // RFID-lezer object
+MFRC522 mfrc522(SS_PIN, RST_PIN);          
 
 /**
  * @brief Initialisatie van seriële communicatie, RFID-module en WiFi-verbinding.
@@ -28,8 +26,8 @@ void setup() {
   delay(500);
   Serial.println("Wemos RFID gestart");
 
-  SPI.begin();              // Initialiseer SPI-bus
-  mfrc522.PCD_Init();       // Initialiseer RFID-lezer
+  SPI.begin();              
+  mfrc522.PCD_Init();      
   Serial.println("RFID klaar, scan een kaart...");
 
   // Verbinden met WiFi en socket naar server

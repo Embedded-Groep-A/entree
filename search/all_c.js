@@ -1,11 +1,23 @@
 var searchData=
 [
-  ['password_0',['password',['../Relaxstoel_8cpp.html#aa4a2ebcb494493f648ae1e6975672575',1,'password:&#160;Relaxstoel.cpp'],['../RFID_8cpp.html#aa4a2ebcb494493f648ae1e6975672575',1,'password:&#160;RFID.cpp'],['../WemosAchie_8cpp.html#aa4a2ebcb494493f648ae1e6975672575',1,'password:&#160;WemosAchie.cpp']]],
-  ['pibus_1',['pibus',['../classPiBus.html',1,'PiBus'],['../classPiBus.html#a9853498069111c8c88ca2cffc5b2890c',1,'PiBus::PiBus()']]],
-  ['pibus_2ecpp_2',['PiBus.cpp',['../PiBus_8cpp.html',1,'']]],
-  ['pibus_2eh_3',['PiBus.h',['../PiBus_8h.html',1,'']]],
-  ['pirpin_4',['pirPin',['../WemosAchie_8cpp.html#a8124f4ae570c6b416e85d4948705938e',1,'WemosAchie.cpp']]],
-  ['poll_5',['poll',['../classPiBus.html#adcd52bb6007ee7e84783bd0a111efde3',1,'PiBus::poll()'],['../classSocket.html#a6e49dae00020139f5c7c1720b68dd9e1',1,'Socket::poll()']]],
-  ['pollserver_6',['pollserver',['../classSocket.html#a197ec7b09d651d29022b4caaaad1af58',1,'Socket::pollServer()'],['../classWiFiSocket.html#ac950f66cf6b99018da42a1d1f8444f02',1,'WiFiSocket::pollServer()']]],
-  ['port_7',['port',['../Relaxstoel_8cpp.html#a63c89c04d1feae07ca35558055155ffb',1,'port:&#160;Relaxstoel.cpp'],['../RFID_8cpp.html#a0eb069d5f53d3e9269b0f321cfbcf108',1,'port:&#160;RFID.cpp'],['../WemosAchie_8cpp.html#a63c89c04d1feae07ca35558055155ffb',1,'port:&#160;WemosAchie.cpp']]]
+  ['op_5fdecodemode_0',['OP_DECODEMODE',['../Lichtkrant__Main_8c.html#a318b32d905ce8e57d7caec133ec7d712',1,'Lichtkrant_Main.c']]],
+  ['op_5fdigit0_1',['OP_DIGIT0',['../Lichtkrant__Main_8c.html#ac2dcbbd3fef01a1defd3aa5f8a8c612a',1,'Lichtkrant_Main.c']]],
+  ['op_5fdigit1_2',['OP_DIGIT1',['../Lichtkrant__Main_8c.html#a6c8209744590cd0cc8495cc6de58ab02',1,'Lichtkrant_Main.c']]],
+  ['op_5fdigit2_3',['OP_DIGIT2',['../Lichtkrant__Main_8c.html#a430d77ba70abea8e61820aaa3f27c28b',1,'Lichtkrant_Main.c']]],
+  ['op_5fdigit3_4',['OP_DIGIT3',['../Lichtkrant__Main_8c.html#a03d3bd8cd1b468b4a9cb473036f65747',1,'Lichtkrant_Main.c']]],
+  ['op_5fdigit4_5',['OP_DIGIT4',['../Lichtkrant__Main_8c.html#ac3d2e72ba1cca69133e4dcbc478f616b',1,'Lichtkrant_Main.c']]],
+  ['op_5fdigit5_6',['OP_DIGIT5',['../Lichtkrant__Main_8c.html#a021f910b62cdaa529fcea36791df7028',1,'Lichtkrant_Main.c']]],
+  ['op_5fdigit6_7',['OP_DIGIT6',['../Lichtkrant__Main_8c.html#a5a12c4b35c924fec89c3b71246b7b7e2',1,'Lichtkrant_Main.c']]],
+  ['op_5fdigit7_8',['OP_DIGIT7',['../Lichtkrant__Main_8c.html#a3a1210173fb70a66f649b93eb62e0884',1,'Lichtkrant_Main.c']]],
+  ['op_5fdisplaytest_9',['OP_DISPLAYTEST',['../Lichtkrant__Main_8c.html#a7ef59a31858360d26d5dade28441598c',1,'Lichtkrant_Main.c']]],
+  ['op_5fintensity_10',['OP_INTENSITY',['../Lichtkrant__Main_8c.html#a4f47ca7a01008a4d918302ece5314ed4',1,'Lichtkrant_Main.c']]],
+  ['op_5fnoop_11',['OP_NOOP',['../Lichtkrant__Main_8c.html#a6c542d212fef9a9b5ba82222089a306b',1,'Lichtkrant_Main.c']]],
+  ['op_5fscanlimit_12',['OP_SCANLIMIT',['../Lichtkrant__Main_8c.html#a13d91ddca53029535b6cf314b28ed15e',1,'Lichtkrant_Main.c']]],
+  ['op_5fshutdown_13',['OP_SHUTDOWN',['../Lichtkrant__Main_8c.html#ac4772c1c1c24a4b5837a2000c62aa0a3',1,'Lichtkrant_Main.c']]],
+  ['open_14',['OPEN',['../Message_8h.html#a1bc3ccf4d567ca83c993c3aaa8124904aa38bd5138bf35514df41a1795ebbf5c3',1,'Message.h']]],
+  ['opendeur_15',['openDeur',['../STMEntree_8cpp.html#a950024e127416035478a67f16a1154e7',1,'STMEntree.cpp']]],
+  ['opendeurbrand_16',['openDeurBrand',['../STMEntree_8cpp.html#ad1017ff641d697f3fc38089c72cbc92e',1,'STMEntree.cpp']]],
+  ['opendeurvanbinnen_17',['openDeurVanBinnen',['../STMEntree_8cpp.html#a222274028bb15057a7a2bda4d243582f',1,'STMEntree.cpp']]],
+  ['openserial_18',['openSerial',['../classPiBus.html#abcd11a865c6e1f41f0844afb870d51d8',1,'PiBus']]],
+  ['operator_3d_19',['operator=',['../classSocket.html#a9167eb93bf87c7c7fb2a408c0e0e3101',1,'Socket::operator=(Socket &amp;&amp;)=delete'],['../classSocket.html#afcd91bc8b2b102813d22e00c1cf03a59',1,'Socket::operator=(const Socket &amp;)=delete']]]
 ];

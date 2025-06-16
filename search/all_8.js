@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['lastnoodstopstate_0',['lastNoodstopState',['../STMEntree_8cpp.html#a4710e99478ff32025dec97f9d6f1b8c4',1,'STMEntree.cpp']]],
-  ['loop_1',['loop',['../Relaxstoel_8cpp.html#afe461d27b9c48d5921c00d521181f12f',1,'loop():&#160;Relaxstoel.cpp'],['../RFID_8cpp.html#afe461d27b9c48d5921c00d521181f12f',1,'loop():&#160;RFID.cpp'],['../WemosAchie_8cpp.html#afe461d27b9c48d5921c00d521181f12f',1,'loop():&#160;WemosAchie.cpp'],['../STMEntree_8cpp.html#a3cc03ff338ebac1a1602f9069f137d5a',1,'Loop():&#160;STMEntree.cpp']]]
+  ['knop_5ftriggered_0',['knop_triggered',['../TrappenhuisSTM_8c.html#a468e3fb189875f72195307cf3271d3cd',1,'TrappenhuisSTM.c']]]
 ];

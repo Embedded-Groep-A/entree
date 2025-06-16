@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['lastnoodstopstate_0',['lastNoodstopState',['../STMEntree_8cpp.html#a4710e99478ff32025dec97f9d6f1b8c4',1,'STMEntree.cpp']]]
+  ['knop_5ftriggered_0',['knop_triggered',['../TrappenhuisSTM_8c.html#a468e3fb189875f72195307cf3271d3cd',1,'TrappenhuisSTM.c']]]
 ];

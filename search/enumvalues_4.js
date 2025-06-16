@@ -1,4 +1,13 @@
 var searchData=
 [
-  ['state_0',['STATE',['../Message_8h.html#a1bc3ccf4d567ca83c993c3aaa8124904a2b848a8cc886d253d21a77c43cd50aae',1,'Message.h']]]
+  ['sht3x_5fcommand_5fclear_5fstatus_0',['SHT3X_COMMAND_CLEAR_STATUS',['../Lichtkrant__Main_8c.html#aebf1dfe75e67b378c7f0bc6987440638a6ceb0a57321861f894fdea1ea8726962',1,'Lichtkrant_Main.c']]],
+  ['sht3x_5fcommand_5ffetch_5fdata_1',['SHT3X_COMMAND_FETCH_DATA',['../Lichtkrant__Main_8c.html#aebf1dfe75e67b378c7f0bc6987440638a1f1909b7fab4c4ea6c7f036fe4e38098',1,'Lichtkrant_Main.c']]],
+  ['sht3x_5fcommand_5fheater_5fdisable_2',['SHT3X_COMMAND_HEATER_DISABLE',['../Lichtkrant__Main_8c.html#aebf1dfe75e67b378c7f0bc6987440638a86852af45b8eae4a6462d470e793ce12',1,'Lichtkrant_Main.c']]],
+  ['sht3x_5fcommand_5fheater_5fenable_3',['SHT3X_COMMAND_HEATER_ENABLE',['../Lichtkrant__Main_8c.html#aebf1dfe75e67b378c7f0bc6987440638a75fc97f2fb0f86d45573588617517f2b',1,'Lichtkrant_Main.c']]],
+  ['sht3x_5fcommand_5fmeasure_5fhighrep_5f10hz_4',['SHT3X_COMMAND_MEASURE_HIGHREP_10HZ',['../Lichtkrant__Main_8c.html#aebf1dfe75e67b378c7f0bc6987440638a3635467765a80039b0a3a709294772fe',1,'Lichtkrant_Main.c']]],
+  ['sht3x_5fcommand_5fmeasure_5fhighrep_5fstretch_5',['SHT3X_COMMAND_MEASURE_HIGHREP_STRETCH',['../Lichtkrant__Main_8c.html#aebf1dfe75e67b378c7f0bc6987440638a5170aea3a4cfe2b6f038b80889a64bb8',1,'Lichtkrant_Main.c']]],
+  ['sht3x_5fcommand_5fmeasure_5flowrep_5f10hz_6',['SHT3X_COMMAND_MEASURE_LOWREP_10HZ',['../Lichtkrant__Main_8c.html#aebf1dfe75e67b378c7f0bc6987440638a6d822eb5ffe015593d55e83cd5ecfd0b',1,'Lichtkrant_Main.c']]],
+  ['sht3x_5fcommand_5fread_5fstatus_7',['SHT3X_COMMAND_READ_STATUS',['../Lichtkrant__Main_8c.html#aebf1dfe75e67b378c7f0bc6987440638ad1f21ecf3ea212f4d1d4e39f2ca79688',1,'Lichtkrant_Main.c']]],
+  ['sht3x_5fcommand_5fsoft_5freset_8',['SHT3X_COMMAND_SOFT_RESET',['../Lichtkrant__Main_8c.html#aebf1dfe75e67b378c7f0bc6987440638a0beb4369eeebc16c413a6144c8bcde96',1,'Lichtkrant_Main.c']]],
+  ['state_9',['STATE',['../Message_8h.html#a1bc3ccf4d567ca83c993c3aaa8124904a2b848a8cc886d253d21a77c43cd50aae',1,'Message.h']]]
 ];

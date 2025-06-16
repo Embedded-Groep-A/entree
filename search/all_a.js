@@ -1,5 +1,13 @@
 var searchData=
 [
-  ['noodstop_5fpin_0',['NOODSTOP_PIN',['../STMEntree_8cpp.html#a16a9b87a9ceb14a7af8a91d7c118b489',1,'STMEntree.cpp']]],
-  ['noodstopactief_1',['noodstopActief',['../STMEntree_8cpp.html#a14687bd4a700a3999141d8d80e472349',1,'STMEntree.cpp']]]
+  ['main_0',['main',['../Lichtkrant__Main_8c.html#a840291bc02cba5474a4cb46a9b9566fe',1,'main(void):&#160;Lichtkrant_Main.c'],['../rpia_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;rpia.cpp'],['../rpib_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;rpib.cpp'],['../TrappenhuisSTM_8c.html#a840291bc02cba5474a4cb46a9b9566fe',1,'main(void):&#160;TrappenhuisSTM.c']]],
+  ['maxdevices_1',['maxDevices',['../Lichtkrant__Main_8c.html#a0cda1e84b4287180c4e432629b3ce7bf',1,'Lichtkrant_Main.c']]],
+  ['message_2',['message',['../structClientMessage.html#a7dfcee139ab11a816fb35da5db6f3929',1,'ClientMessage']]],
+  ['message_2ecpp_3',['Message.cpp',['../Message_8cpp.html',1,'']]],
+  ['message_2eh_4',['Message.h',['../Message_8h.html',1,'']]],
+  ['messagetype_5',['MessageType',['../Message_8h.html#a1bc3ccf4d567ca83c993c3aaa8124904',1,'Message.h']]],
+  ['mfrc522_6',['mfrc522',['../RFID_8cpp.html#ac672f817299d07cc428fe3f456235273',1,'RFID.cpp']]],
+  ['motor_5fpin_7',['MOTOR_PIN',['../Relaxstoel_8cpp.html#a8e1ee46448a9d6fd89208aa48e0b1e58',1,'Relaxstoel.cpp']]],
+  ['msgpointer_8',['MsgPointer',['../Lichtkrant__Main_8c.html#a551487decef8bed7c44493e5e3fe8cb5',1,'Lichtkrant_Main.c']]],
+  ['msgsize_9',['MsgSize',['../Lichtkrant__Main_8c.html#a772ff7560452c0984c8358c9e67efbdd',1,'Lichtkrant_Main.c']]]
 ];

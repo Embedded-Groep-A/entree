@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['wifisocket_0',['wifisocket',['../Relaxstoel_8cpp.html#abcadc5a86eda33ac87b7ef3a58e0b4a4',1,'wifiSocket:&#160;Relaxstoel.cpp'],['../RFID_8cpp.html#abcadc5a86eda33ac87b7ef3a58e0b4a4',1,'wifiSocket:&#160;RFID.cpp'],['../WemosAchie_8cpp.html#abcadc5a86eda33ac87b7ef3a58e0b4a4',1,'wifiSocket:&#160;WemosAchie.cpp']]]
+  ['uart_5frx_5fchar_0',['uart_rx_char',['../TrappenhuisSTM_8c.html#a03f8953746f85120a61c2e6b94c775ce',1,'TrappenhuisSTM.c']]],
+  ['uid_1',['uid',['../structEigenaar.html#abbf34579d0997b566ed005404ce1cd1b',1,'Eigenaar']]]
 ];

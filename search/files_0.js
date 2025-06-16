@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['message_2ecpp_0',['Message.cpp',['../Message_8cpp.html',1,'']]],
-  ['message_2eh_1',['Message.h',['../Message_8h.html',1,'']]]
+  ['lichtkrant_5fmain_2ec_0',['Lichtkrant_Main.c',['../Lichtkrant__Main_8c.html',1,'']]]
 ];

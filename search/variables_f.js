@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['uart_5frx_5fchar_0',['uart_rx_char',['../TrappenhuisSTM_8c.html#a03f8953746f85120a61c2e6b94c775ce',1,'TrappenhuisSTM.c']]],
-  ['uid_1',['uid',['../structEigenaar.html#abbf34579d0997b566ed005404ce1cd1b',1,'Eigenaar']]]
+  ['tempmsg_0',['TempMsg',['../Lichtkrant__Main_8c.html#a4699e233b60fd67166307ee108a3872f',1,'Lichtkrant_Main.c']]],
+  ['tempvochtsensor_1',['TempVochtSensor',['../Lichtkrant__Main_8c.html#af23c71a4450b2c305be0bf70dbaf66c6',1,'Lichtkrant_Main.c']]],
+  ['type_2',['type',['../structClientMessage.html#a4d80cd5a2196a3a62e4d31d842fa7ed4',1,'ClientMessage']]]
 ];

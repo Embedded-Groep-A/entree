@@ -1,3 +1,8 @@
+/*!
+ * \file rpia.cpp
+ * \brief code voor PI A
+ */
+
 #include "Socket.h"
 #include "PiBus.h"
 #include "Message.h"

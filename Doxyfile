@@ -991,7 +991,7 @@ WARN_LOGFILE           =
 # spaces. See also FILE_PATTERNS and EXTENSION_MAPPING
 # Note: If this tag is empty the current directory is searched.
 
-INPUT                  = lib/Message/include lib/Message/src lib/PiBus/include lib/PiBus/src lib/Socket/include lib/Socket/src lib/WifiSocket/include lib/WifiSocket/src src/
+INPUT                  = lib/Message/include lib/Message/src lib/PiBus/include lib/PiBus/src lib/Socket/include lib/Socket/src lib/WifiSocket/include lib/WifiSocket/src src/ lib/Balie/include lib/Balie/src
 
 
 # This tag can be used to specify the character encoding of the source files

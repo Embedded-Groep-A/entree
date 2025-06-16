@@ -63,8 +63,11 @@ static void MX_TIM2_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-uint8_t uart_rx_char;             // buffer voor ontvangen char
-volatile uint8_t alarm_triggered; // flag als '*' is ontvangen
+/** @brief Opslag voor laatst ontvangen UART karakter */
+uint8_t uart_rx_char;  
+/** @brief Flag die aangeeft dat het alarm getriggerd is via UART2 */
+volatile uint8_t alarm_triggered; 
+/** @brief Flag die aangeeft dat er een knop/motion interrupt was */
 volatile uint8_t knop_triggered = 0;
 
 /* USER CODE END 0 */
@@ -73,6 +76,14 @@ volatile uint8_t knop_triggered = 0;
   * @brief  The application entry point.
   * @retval int
   */
+  /**
+   * @brief Main loop van de STM32 applicatie
+   *
+   * Initialisatie van klok, UART, PWM en GPIO.
+   * Verwerkt inputs van knop en UART voor deuropening.
+   * @retval int Niet gebruikt
+   */
+
 int main(void)
 {
 
@@ -121,8 +132,7 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	  /*Ik maak hier twee types interrupts aan de "knop_triggered" geeft een interrupt op
-	    basis van GPIO 8 button en GPIO 12 MotionSensor*/
+	 
 
 
 	  if (knop_triggered || alarm_triggered){
@@ -134,8 +144,7 @@ int main(void)
 	      knop_triggered = 0;
 	      alarm_triggered = 0;
 
-	      //alarm_triggered = 0;  // reset flag
-	      //knop_triggered=0;
+	    
 	  }
 	  else
 	  {
@@ -416,6 +425,14 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+/**
+ * @brief Callback voor ontvangen UART data
+ *
+ * Wordt getriggerd als er een byte binnenkomt via USART2.
+ * Als het teken '?' is, staat het brandalarm aan.
+ * @param huart Pointer naar de UART die de interrupt gaf
+ */
+
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 {
     if (huart->Instance == USART2)
@@ -431,6 +448,14 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 
 
 }
+/**
+ * @brief Callback voor GPIO interrupts (motion sensor / knop)
+ *
+ * Wordt getriggerd bij een druk op de knop op GPIO_PIN_8 of gedetecteerde beweging op GPIO_PIN_12.
+ * Zet een flag waarmee de hoofdloop weet dat de deur open moet.
+ * @param GPIO_Pin Het pin-nummer dat de interrupt veroorzaakte
+ */
+
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 {
     if (GPIO_Pin == GPIO_PIN_8 || GPIO_Pin == GPIO_PIN_12)

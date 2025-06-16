@@ -1,4 +1,7 @@
 var searchData=
 [
-  ['typetostring_0',['typetostring',['../Message_8h.html#a67527e8ccb91bc27a5ad51d1da25bf67',1,'typeToString(MessageType type):&#160;Message.cpp'],['../Message_8cpp.html#a67527e8ccb91bc27a5ad51d1da25bf67',1,'typeToString(MessageType type):&#160;Message.cpp']]]
+  ['close_0',['close',['../classSocket.html#a75ee749264ccbcfc4dfbf5442e55dcb8',1,'Socket']]],
+  ['connect_1',['connect',['../classSocket.html#a8fbd31e1022cdb5766f4d36e826eee60',1,'Socket']]],
+  ['connectsocket_2',['connectSocket',['../classWiFiSocket.html#a98edb762be180be1d137558e40aa085c',1,'WiFiSocket']]],
+  ['connectwifi_3',['connectWiFi',['../classWiFiSocket.html#abb1f2c27bbebbac56f02ee138427d2ed',1,'WiFiSocket']]]
 ];

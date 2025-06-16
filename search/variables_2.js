@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['type_0',['type',['../structClientMessage.html#a4d80cd5a2196a3a62e4d31d842fa7ed4',1,'ClientMessage']]]
+  ['clientid_0',['clientID',['../structClientMessage.html#a5dc112f4613eb38df44964f8c2ca2be3',1,'ClientMessage']]]
 ];

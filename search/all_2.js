@@ -1,7 +1,9 @@
 var searchData=
 [
-  ['message_0',['message',['../structClientMessage.html#a7dfcee139ab11a816fb35da5db6f3929',1,'ClientMessage']]],
-  ['message_2ecpp_1',['Message.cpp',['../Message_8cpp.html',1,'']]],
-  ['message_2eh_2',['Message.h',['../Message_8h.html',1,'']]],
-  ['messagetype_3',['MessageType',['../Message_8h.html#a1bc3ccf4d567ca83c993c3aaa8124904',1,'Message.h']]]
+  ['clientid_0',['clientID',['../structClientMessage.html#a5dc112f4613eb38df44964f8c2ca2be3',1,'ClientMessage']]],
+  ['clientmessage_1',['ClientMessage',['../structClientMessage.html',1,'']]],
+  ['close_2',['close',['../classSocket.html#a75ee749264ccbcfc4dfbf5442e55dcb8',1,'Socket']]],
+  ['connect_3',['connect',['../classSocket.html#a8fbd31e1022cdb5766f4d36e826eee60',1,'Socket']]],
+  ['connectsocket_4',['connectSocket',['../classWiFiSocket.html#a98edb762be180be1d137558e40aa085c',1,'WiFiSocket']]],
+  ['connectwifi_5',['connectWiFi',['../classWiFiSocket.html#abb1f2c27bbebbac56f02ee138427d2ed',1,'WiFiSocket']]]
 ];

@@ -25,7 +25,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">L &amp; B Smart Entree<span id="projectnumber">&#160;commit-ed7154a</span>
+   <div id="projectname">L &amp; B Smart Entree<span id="projectnumber">&#160;commit-1a9677c</span>
    </div>
   </td>
  </tr>
@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('PiBus_8h_source.html',''); initResizab
   <div class="headertitle"><div class="title">PiBus.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef PIBUS_H</span></div>
+<a href="PiBus_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef PIBUS_H</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define PIBUS_H</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;<a class="code" href="Message_8h.html">Message.h</a>&gt;</span></div>
@@ -109,11 +109,11 @@ $(document).ready(function(){initNavTree('PiBus_8h_source.html',''); initResizab
 <div class="foldopen" id="foldopen00010" data-start="{" data-end="};">
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="classPiBus.html">   10</a></span><span class="keyword">class </span><a class="code hl_class" href="classPiBus.html">PiBus</a> {</div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    <a class="code hl_class" href="classPiBus.html">PiBus</a>();</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    <a class="code hl_class" href="classPiBus.html">~PiBus</a>();</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <span class="keywordtype">void</span> openSerial(<span class="keyword">const</span> <span class="keywordtype">char</span>* port, <span class="keywordtype">int</span> baud);</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    <span class="keywordtype">void</span> send(<a class="code hl_enumeration" href="Message_8h.html#a1bc3ccf4d567ca83c993c3aaa8124904">MessageType</a> type, <span class="keyword">const</span> <span class="keywordtype">char</span>* data);</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    std::pair&lt;MessageType, std::string&gt; poll();</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    <a class="code hl_function" href="classPiBus.html#a9853498069111c8c88ca2cffc5b2890c">PiBus</a>();</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    <a class="code hl_function" href="classPiBus.html#a38a8474d8d40fdd48b045a3903eba118">~PiBus</a>();</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classPiBus.html#abcd11a865c6e1f41f0844afb870d51d8">openSerial</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_variable" href="Relaxstoel_8cpp.html#a63c89c04d1feae07ca35558055155ffb">port</a>, <span class="keywordtype">int</span> baud);</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classPiBus.html#a180f3cca54d8703debc654f3108244de">send</a>(<a class="code hl_enumeration" href="Message_8h.html#a1bc3ccf4d567ca83c993c3aaa8124904">MessageType</a> type, <span class="keyword">const</span> <span class="keywordtype">char</span>* data);</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    std::pair&lt;MessageType, std::string&gt; <a class="code hl_function" href="classPiBus.html#adcd52bb6007ee7e84783bd0a111efde3">poll</a>();</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">private</span>:</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="keywordtype">int</span> fd;</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>};</div>
@@ -122,13 +122,19 @@ $(document).ready(function(){initNavTree('PiBus_8h_source.html',''); initResizab
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#endif </span><span class="comment">// PIBUS_H</span></div>
 <div class="ttc" id="aMessage_8h_html"><div class="ttname"><a href="Message_8h.html">Message.h</a></div><div class="ttdoc">Definieert de mogelijke berichttypes en de structuur voor berichten.</div></div>
 <div class="ttc" id="aMessage_8h_html_a1bc3ccf4d567ca83c993c3aaa8124904"><div class="ttname"><a href="Message_8h.html#a1bc3ccf4d567ca83c993c3aaa8124904">MessageType</a></div><div class="ttdeci">MessageType</div><div class="ttdoc">Definieert de mogelijke berichttypes die kunnen worden verzonden.</div><div class="ttdef"><b>Definition</b> Message.h:28</div></div>
+<div class="ttc" id="aRelaxstoel_8cpp_html_a63c89c04d1feae07ca35558055155ffb"><div class="ttname"><a href="Relaxstoel_8cpp.html#a63c89c04d1feae07ca35558055155ffb">port</a></div><div class="ttdeci">int port</div><div class="ttdef"><b>Definition</b> Relaxstoel.cpp:10</div></div>
 <div class="ttc" id="aclassPiBus_html"><div class="ttname"><a href="classPiBus.html">PiBus</a></div><div class="ttdef"><b>Definition</b> PiBus.h:10</div></div>
+<div class="ttc" id="aclassPiBus_html_a180f3cca54d8703debc654f3108244de"><div class="ttname"><a href="classPiBus.html#a180f3cca54d8703debc654f3108244de">PiBus::send</a></div><div class="ttdeci">void send(MessageType type, const char *data)</div><div class="ttdef"><b>Definition</b> PiBus.cpp:53</div></div>
+<div class="ttc" id="aclassPiBus_html_a38a8474d8d40fdd48b045a3903eba118"><div class="ttname"><a href="classPiBus.html#a38a8474d8d40fdd48b045a3903eba118">PiBus::~PiBus</a></div><div class="ttdeci">~PiBus()</div><div class="ttdef"><b>Definition</b> PiBus.cpp:7</div></div>
+<div class="ttc" id="aclassPiBus_html_a9853498069111c8c88ca2cffc5b2890c"><div class="ttname"><a href="classPiBus.html#a9853498069111c8c88ca2cffc5b2890c">PiBus::PiBus</a></div><div class="ttdeci">PiBus()</div><div class="ttdef"><b>Definition</b> PiBus.cpp:5</div></div>
+<div class="ttc" id="aclassPiBus_html_abcd11a865c6e1f41f0844afb870d51d8"><div class="ttname"><a href="classPiBus.html#abcd11a865c6e1f41f0844afb870d51d8">PiBus::openSerial</a></div><div class="ttdeci">void openSerial(const char *port, int baud)</div><div class="ttdef"><b>Definition</b> PiBus.cpp:11</div></div>
+<div class="ttc" id="aclassPiBus_html_adcd52bb6007ee7e84783bd0a111efde3"><div class="ttname"><a href="classPiBus.html#adcd52bb6007ee7e84783bd0a111efde3">PiBus::poll</a></div><div class="ttdeci">std::pair&lt; MessageType, std::string &gt; poll()</div><div class="ttdef"><b>Definition</b> PiBus.cpp:67</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_5e9aeeac721f4cf97e1b3db08a7cba5d.html">PiBus</a></li><li class="navelem"><a class="el" href="dir_8f290db541775e966d0c0616e22e41fa.html">include</a></li><li class="navelem"><b>PiBus.h</b></li>
+    <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_5e9aeeac721f4cf97e1b3db08a7cba5d.html">PiBus</a></li><li class="navelem"><a class="el" href="dir_8f290db541775e966d0c0616e22e41fa.html">include</a></li><li class="navelem"><a class="el" href="PiBus_8h.html">PiBus.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>

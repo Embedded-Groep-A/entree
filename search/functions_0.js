@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['stringtotype_0',['stringtotype',['../Message_8h.html#abd68ae1fd12ef2103db76299fb327ac4',1,'stringToType(const std::string &amp;str):&#160;Message.cpp'],['../Message_8cpp.html#abd68ae1fd12ef2103db76299fb327ac4',1,'stringToType(const std::string &amp;str):&#160;Message.cpp']]]
+  ['accept_0',['accept',['../classSocket.html#a596929d4cb92a1e243c9b16ec2b53b0f',1,'Socket']]]
 ];

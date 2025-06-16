@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['message_0',['message',['../structClientMessage.html#a7dfcee139ab11a816fb35da5db6f3929',1,'ClientMessage']]]
+  ['bluepin_0',['bluePin',['../WemosAchie_8cpp.html#a4da1253dc00e0a399f4fd9739934f39a',1,'WemosAchie.cpp']]]
 ];

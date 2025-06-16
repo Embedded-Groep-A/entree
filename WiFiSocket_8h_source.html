@@ -25,7 +25,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">L &amp; B Smart Entree<span id="projectnumber">&#160;commit-ed7154a</span>
+   <div id="projectname">L &amp; B Smart Entree<span id="projectnumber">&#160;commit-1a9677c</span>
    </div>
   </td>
  </tr>
@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('WiFiSocket_8h_source.html',''); initRe
   <div class="headertitle"><div class="title">WiFiSocket.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef WIFISOCKET_H</span></div>
+<a href="WiFiSocket_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef WIFISOCKET_H</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define WIFISOCKET_H</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;Arduino.h&gt;</span></div>
@@ -107,13 +107,13 @@ $(document).ready(function(){initNavTree('WiFiSocket_8h_source.html',''); initRe
 <div class="foldopen" id="foldopen00008" data-start="{" data-end="};">
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="classWiFiSocket.html">    8</a></span><span class="keyword">class </span><a class="code hl_class" href="classWiFiSocket.html">WiFiSocket</a> {</div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    <a class="code hl_class" href="classWiFiSocket.html">WiFiSocket</a>();</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    <a class="code hl_class" href="classWiFiSocket.html">~WiFiSocket</a>();</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    <span class="keywordtype">void</span> connectWiFi(<span class="keyword">const</span> <span class="keywordtype">char</span>* ssid, <span class="keyword">const</span> <span class="keywordtype">char</span>* password);</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    <span class="keywordtype">void</span> connectSocket(<span class="keyword">const</span> <span class="keywordtype">char</span>* host, uint16_t port, <span class="keyword">const</span> <span class="keywordtype">char</span>* <span class="keywordtype">id</span>);</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <span class="keywordtype">void</span> disconnectSocket();</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    <span class="keywordtype">void</span> sendToServer(<a class="code hl_enumeration" href="Message_8h.html#a1bc3ccf4d567ca83c993c3aaa8124904">MessageType</a> type, <span class="keyword">const</span> String&amp; message);</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    std::pair&lt;MessageType, String&gt; pollServer();</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    <a class="code hl_function" href="classWiFiSocket.html#ad43ff7b38fca4953a0cb992a40215973">WiFiSocket</a>();</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    <a class="code hl_function" href="classWiFiSocket.html#a6012128e7396b5f842d428a61bd80ef3">~WiFiSocket</a>();</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classWiFiSocket.html#abb1f2c27bbebbac56f02ee138427d2ed">connectWiFi</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_variable" href="Relaxstoel_8cpp.html#a587ba0cb07f02913598610049a3bbb79">ssid</a>, <span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_variable" href="Relaxstoel_8cpp.html#aa4a2ebcb494493f648ae1e6975672575">password</a>);</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classWiFiSocket.html#a98edb762be180be1d137558e40aa085c">connectSocket</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_variable" href="Relaxstoel_8cpp.html#ae032e164f1daa754d6fbb79d59723931">host</a>, uint16_t <a class="code hl_variable" href="Relaxstoel_8cpp.html#a63c89c04d1feae07ca35558055155ffb">port</a>, <span class="keyword">const</span> <span class="keywordtype">char</span>* <span class="keywordtype">id</span>);</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classWiFiSocket.html#a19dbff950d828f9961ce62c43c6bc9f3">disconnectSocket</a>();</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classWiFiSocket.html#a69ac23f205e6edadf9da0e0323af3e29">sendToServer</a>(<a class="code hl_enumeration" href="Message_8h.html#a1bc3ccf4d567ca83c993c3aaa8124904">MessageType</a> type, <span class="keyword">const</span> String&amp; message);</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    std::pair&lt;MessageType, String&gt; <a class="code hl_function" href="classWiFiSocket.html#ac950f66cf6b99018da42a1d1f8444f02">pollServer</a>();</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">private</span>:</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    WiFiClient client;</div>
@@ -125,13 +125,24 @@ $(document).ready(function(){initNavTree('WiFiSocket_8h_source.html',''); initRe
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#endif </span><span class="comment">// WIFISOCKET_H</span></div>
 <div class="ttc" id="aMessage_8h_html"><div class="ttname"><a href="Message_8h.html">Message.h</a></div><div class="ttdoc">Definieert de mogelijke berichttypes en de structuur voor berichten.</div></div>
 <div class="ttc" id="aMessage_8h_html_a1bc3ccf4d567ca83c993c3aaa8124904"><div class="ttname"><a href="Message_8h.html#a1bc3ccf4d567ca83c993c3aaa8124904">MessageType</a></div><div class="ttdeci">MessageType</div><div class="ttdoc">Definieert de mogelijke berichttypes die kunnen worden verzonden.</div><div class="ttdef"><b>Definition</b> Message.h:28</div></div>
+<div class="ttc" id="aRelaxstoel_8cpp_html_a587ba0cb07f02913598610049a3bbb79"><div class="ttname"><a href="Relaxstoel_8cpp.html#a587ba0cb07f02913598610049a3bbb79">ssid</a></div><div class="ttdeci">const char * ssid</div><div class="ttdef"><b>Definition</b> Relaxstoel.cpp:7</div></div>
+<div class="ttc" id="aRelaxstoel_8cpp_html_a63c89c04d1feae07ca35558055155ffb"><div class="ttname"><a href="Relaxstoel_8cpp.html#a63c89c04d1feae07ca35558055155ffb">port</a></div><div class="ttdeci">int port</div><div class="ttdef"><b>Definition</b> Relaxstoel.cpp:10</div></div>
+<div class="ttc" id="aRelaxstoel_8cpp_html_aa4a2ebcb494493f648ae1e6975672575"><div class="ttname"><a href="Relaxstoel_8cpp.html#aa4a2ebcb494493f648ae1e6975672575">password</a></div><div class="ttdeci">const char * password</div><div class="ttdef"><b>Definition</b> Relaxstoel.cpp:8</div></div>
+<div class="ttc" id="aRelaxstoel_8cpp_html_ae032e164f1daa754d6fbb79d59723931"><div class="ttname"><a href="Relaxstoel_8cpp.html#ae032e164f1daa754d6fbb79d59723931">host</a></div><div class="ttdeci">const char * host</div><div class="ttdef"><b>Definition</b> Relaxstoel.cpp:9</div></div>
 <div class="ttc" id="aclassWiFiSocket_html"><div class="ttname"><a href="classWiFiSocket.html">WiFiSocket</a></div><div class="ttdef"><b>Definition</b> WiFiSocket.h:8</div></div>
+<div class="ttc" id="aclassWiFiSocket_html_a19dbff950d828f9961ce62c43c6bc9f3"><div class="ttname"><a href="classWiFiSocket.html#a19dbff950d828f9961ce62c43c6bc9f3">WiFiSocket::disconnectSocket</a></div><div class="ttdeci">void disconnectSocket()</div><div class="ttdef"><b>Definition</b> WiFiSocket.cpp:42</div></div>
+<div class="ttc" id="aclassWiFiSocket_html_a6012128e7396b5f842d428a61bd80ef3"><div class="ttname"><a href="classWiFiSocket.html#a6012128e7396b5f842d428a61bd80ef3">WiFiSocket::~WiFiSocket</a></div><div class="ttdeci">~WiFiSocket()</div><div class="ttdef"><b>Definition</b> WiFiSocket.cpp:8</div></div>
+<div class="ttc" id="aclassWiFiSocket_html_a69ac23f205e6edadf9da0e0323af3e29"><div class="ttname"><a href="classWiFiSocket.html#a69ac23f205e6edadf9da0e0323af3e29">WiFiSocket::sendToServer</a></div><div class="ttdeci">void sendToServer(MessageType type, const String &amp;message)</div><div class="ttdef"><b>Definition</b> WiFiSocket.cpp:47</div></div>
+<div class="ttc" id="aclassWiFiSocket_html_a98edb762be180be1d137558e40aa085c"><div class="ttname"><a href="classWiFiSocket.html#a98edb762be180be1d137558e40aa085c">WiFiSocket::connectSocket</a></div><div class="ttdeci">void connectSocket(const char *host, uint16_t port, const char *id)</div><div class="ttdef"><b>Definition</b> WiFiSocket.cpp:21</div></div>
+<div class="ttc" id="aclassWiFiSocket_html_abb1f2c27bbebbac56f02ee138427d2ed"><div class="ttname"><a href="classWiFiSocket.html#abb1f2c27bbebbac56f02ee138427d2ed">WiFiSocket::connectWiFi</a></div><div class="ttdeci">void connectWiFi(const char *ssid, const char *password)</div><div class="ttdef"><b>Definition</b> WiFiSocket.cpp:10</div></div>
+<div class="ttc" id="aclassWiFiSocket_html_ac950f66cf6b99018da42a1d1f8444f02"><div class="ttname"><a href="classWiFiSocket.html#ac950f66cf6b99018da42a1d1f8444f02">WiFiSocket::pollServer</a></div><div class="ttdeci">std::pair&lt; MessageType, String &gt; pollServer()</div><div class="ttdef"><b>Definition</b> WiFiSocket.cpp:54</div></div>
+<div class="ttc" id="aclassWiFiSocket_html_ad43ff7b38fca4953a0cb992a40215973"><div class="ttname"><a href="classWiFiSocket.html#ad43ff7b38fca4953a0cb992a40215973">WiFiSocket::WiFiSocket</a></div><div class="ttdeci">WiFiSocket()</div><div class="ttdef"><b>Definition</b> WiFiSocket.cpp:4</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_d9b58c5880643527a2ce4daf34b5c8ed.html">WifiSocket</a></li><li class="navelem"><a class="el" href="dir_02c186f7311e557994bcf98be373b02c.html">include</a></li><li class="navelem"><b>WiFiSocket.h</b></li>
+    <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_d9b58c5880643527a2ce4daf34b5c8ed.html">WifiSocket</a></li><li class="navelem"><a class="el" href="dir_02c186f7311e557994bcf98be373b02c.html">include</a></li><li class="navelem"><a class="el" href="WiFiSocket_8h.html">WiFiSocket.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>

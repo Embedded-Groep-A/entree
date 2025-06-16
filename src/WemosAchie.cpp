@@ -1,11 +1,11 @@
+/*!
+ * \file main.cpp
+ * \brief Wemos D1 mini ontvangt RGB values en zet die aan wanneer de PIR sensor beweging detecteerd     
+ */
+
 #include "WifiSocket.h"
 #include <Arduino.h>
 #include <ESP8266WiFi.h>
-/*!
- * \file main.cpp
- * \brief Main sourcecode file of RGB and PIR sensor WEMOS
- *      Documentation:  https://embedded-groep-a.github.io/entree/
- */
 
 /** @brief WiFi SSID voor netwerkverbinding */
 const char *ssid = "NSELab";

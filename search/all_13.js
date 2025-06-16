@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['wemosachie_2ecpp_0',['WemosAchie.cpp',['../WemosAchie_8cpp.html',1,'']]],
-  ['wifisocket_1',['wifisocket',['../classWiFiSocket.html',1,'WiFiSocket'],['../classWiFiSocket.html#ad43ff7b38fca4953a0cb992a40215973',1,'WiFiSocket::WiFiSocket()'],['../Relaxstoel_8cpp.html#abcadc5a86eda33ac87b7ef3a58e0b4a4',1,'wifiSocket:&#160;Relaxstoel.cpp'],['../RFID_8cpp.html#abcadc5a86eda33ac87b7ef3a58e0b4a4',1,'wifiSocket:&#160;RFID.cpp'],['../WemosAchie_8cpp.html#abcadc5a86eda33ac87b7ef3a58e0b4a4',1,'wifiSocket:&#160;WemosAchie.cpp']]],
-  ['wifisocket_2ecpp_2',['WiFiSocket.cpp',['../WiFiSocket_8cpp.html',1,'']]],
-  ['wifisocket_2eh_3',['WiFiSocket.h',['../WiFiSocket_8h.html',1,'']]]
+  ['_7epibus_0',['~PiBus',['../classPiBus.html#a38a8474d8d40fdd48b045a3903eba118',1,'PiBus']]],
+  ['_7esocket_1',['~Socket',['../classSocket.html#aeac4eb6379a543d38ed88977d3b6630a',1,'Socket']]],
+  ['_7ewifisocket_2',['~WiFiSocket',['../classWiFiSocket.html#a6012128e7396b5f842d428a61bd80ef3',1,'WiFiSocket']]]
 ];

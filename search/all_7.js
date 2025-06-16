@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['initstmentree_0',['initSTMEntree',['../STMEntree_8cpp.html#aebf6859c1ab5b3ab5e75d34a3e336bdc',1,'STMEntree.cpp']]]
+  ['knop_5ftriggered_0',['knop_triggered',['../TrappenhuisSTM_8c.html#a468e3fb189875f72195307cf3271d3cd',1,'TrappenhuisSTM.c']]]
 ];

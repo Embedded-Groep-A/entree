@@ -22,6 +22,12 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
+/*!
+ * \file Lichtkrant_Main.c
+ * \brief Lichtkrant code
+ */
+
+
 #include "CHARS.h"
 
 #include <assert.h>

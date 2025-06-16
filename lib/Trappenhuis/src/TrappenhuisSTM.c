@@ -17,9 +17,8 @@
   */
   /*!
    * \file main.cpp
-   * \brief Main sourcecode file of Trappenhuis
-   *      Documentation:  https://embedded-groep-a.github.io/entree/
-   */
+   * \brief STM32 L432KC die een servo aanstuurt op basis van GPIO 
+   */
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include <TrappenhuisSTM.h>

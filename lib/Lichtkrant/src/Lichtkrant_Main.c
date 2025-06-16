@@ -1,3 +1,9 @@
+/*!
+ * \file Lichtkrant_Main.c
+ * \brief Lichtkrant code
+ */
+
+
 /* USER CODE BEGIN Header */
 /**
   ******************************************************************************

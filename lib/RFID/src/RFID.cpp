@@ -1,4 +1,7 @@
-
+/**
+ * @file RFID.cpp
+ * @brief RFID-kaartlezer met Wemos D1 Mini en WiFi communicatie naar Raspberry Pi.
+ */
 #include <SPI.h>
 #include <MFRC522.h>
 #include <Arduino.h>

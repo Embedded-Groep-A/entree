@@ -1,3 +1,7 @@
+/**
+ * @file Relaxstoel.cpp
+ * @brief Wemos D1 mini die commando's ontvangt via WiFi en apparaten aanstuurt (stoel en schemerlamp).
+ */
 #include "WifiSocket.h"
 #include <Arduino.h>
 #include <ESP8266WiFi.h>

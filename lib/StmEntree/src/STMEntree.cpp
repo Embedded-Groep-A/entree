@@ -1,3 +1,7 @@
+/**
+ * @file STMEntree.cpp
+ * @brief Implementatie van de  Luchtsluis aansturing voor het bedrijf L&B.
+ */
 #include "STMEntree.h"
 #include <PinNames.h>
 

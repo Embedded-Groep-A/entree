@@ -1,6 +1,6 @@
 /**
  * @file STMEntree.h
- * @brief Header voor de servo-aansturing van een toegangsdeur met noodstop en RS485-communicatie.
+ * @brief Header voor de servo-aansturing van de luchtsluis met noodstop en RS485-communicatie.
  */
 
 #pragma once

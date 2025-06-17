@@ -25,7 +25,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">L &amp; B Smart Entree<span id="projectnumber">&#160;commit-1f8ed31</span>
+   <div id="projectname">L &amp; B Smart Entree<span id="projectnumber">&#160;commit-efb2ed1</span>
    </div>
   </td>
  </tr>
@@ -105,10 +105,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a38a8474d8d40fdd48b045a3903eba118" id="r_a38a8474d8d40fdd48b045a3903eba118"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPiBus.html#a38a8474d8d40fdd48b045a3903eba118">~PiBus</a> ()</td></tr>
 <tr class="separator:a38a8474d8d40fdd48b045a3903eba118"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abcd11a865c6e1f41f0844afb870d51d8" id="r_abcd11a865c6e1f41f0844afb870d51d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPiBus.html#abcd11a865c6e1f41f0844afb870d51d8">openSerial</a> (const char *<a class="el" href="Relaxstoel_8cpp.html#a63c89c04d1feae07ca35558055155ffb">port</a>, int baud)</td></tr>
+<tr class="memdesc:abcd11a865c6e1f41f0844afb870d51d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open een seriële poort voor communicatie.  <br /></td></tr>
 <tr class="separator:abcd11a865c6e1f41f0844afb870d51d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a180f3cca54d8703debc654f3108244de" id="r_a180f3cca54d8703debc654f3108244de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPiBus.html#a180f3cca54d8703debc654f3108244de">send</a> (<a class="el" href="Message_8h.html#a1bc3ccf4d567ca83c993c3aaa8124904">MessageType</a> type, const char *data)</td></tr>
+<tr class="memdesc:a180f3cca54d8703debc654f3108244de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stuur een bericht over de bus.  <br /></td></tr>
 <tr class="separator:a180f3cca54d8703debc654f3108244de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adcd52bb6007ee7e84783bd0a111efde3" id="r_adcd52bb6007ee7e84783bd0a111efde3"><td class="memItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="Message_8h.html#a1bc3ccf4d567ca83c993c3aaa8124904">MessageType</a>, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPiBus.html#adcd52bb6007ee7e84783bd0a111efde3">poll</a> ()</td></tr>
+<tr class="memdesc:adcd52bb6007ee7e84783bd0a111efde3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check of er berichten beschikbaar zijn op de bus.  <br /></td></tr>
 <tr class="separator:adcd52bb6007ee7e84783bd0a111efde3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -173,6 +176,15 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Open een seriële poort voor communicatie. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">port</td><td>De naam van de seriële poort (bijv. "/dev/ttyUSB0"). </td></tr>
+    <tr><td class="paramname">baud</td><td>De baudrate voor de seriële communicatie (bijv. 9600). </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="adcd52bb6007ee7e84783bd0a111efde3" name="adcd52bb6007ee7e84783bd0a111efde3"></a>
@@ -189,6 +201,9 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Check of er berichten beschikbaar zijn op de bus. </p>
+<dl class="section return"><dt>Returns</dt><dd>een pair met het type van het bericht en de gegevens. </dd></dl>
 
 </div>
 </div>
@@ -217,6 +232,15 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Stuur een bericht over de bus. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td>Het type van het bericht. </td></tr>
+    <tr><td class="paramname">data</td><td>De gegevens van het bericht. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

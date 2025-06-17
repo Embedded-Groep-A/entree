@@ -25,7 +25,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">L &amp; B Smart Entree<span id="projectnumber">&#160;commit-1f8ed31</span>
+   <div id="projectname">L &amp; B Smart Entree<span id="projectnumber">&#160;commit-efb2ed1</span>
    </div>
   </td>
  </tr>
@@ -97,38 +97,39 @@ $(document).ready(function(){initNavTree('PiBus_8h_source.html',''); initResizab
   <div class="headertitle"><div class="title">PiBus.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="PiBus_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef PIBUS_H</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define PIBUS_H</span></div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;<a class="code" href="Message_8h.html">Message.h</a>&gt;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;fcntl.h&gt;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;unistd.h&gt;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;termios.h&gt;</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;cstring&gt;</span></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="foldopen" id="foldopen00010" data-start="{" data-end="};">
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="classPiBus.html">   10</a></span><span class="keyword">class </span><a class="code hl_class" href="classPiBus.html">PiBus</a> {</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    <a class="code hl_function" href="classPiBus.html#a9853498069111c8c88ca2cffc5b2890c">PiBus</a>();</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    <a class="code hl_function" href="classPiBus.html#a38a8474d8d40fdd48b045a3903eba118">~PiBus</a>();</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classPiBus.html#abcd11a865c6e1f41f0844afb870d51d8">openSerial</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_variable" href="Relaxstoel_8cpp.html#a63c89c04d1feae07ca35558055155ffb">port</a>, <span class="keywordtype">int</span> baud);</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classPiBus.html#a180f3cca54d8703debc654f3108244de">send</a>(<a class="code hl_enumeration" href="Message_8h.html#a1bc3ccf4d567ca83c993c3aaa8124904">MessageType</a> type, <span class="keyword">const</span> <span class="keywordtype">char</span>* data);</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    std::pair&lt;MessageType, std::string&gt; <a class="code hl_function" href="classPiBus.html#adcd52bb6007ee7e84783bd0a111efde3">poll</a>();</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="keywordtype">int</span> fd;</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>};</div>
+<a href="PiBus_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#ifndef PIBUS_H</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#define PIBUS_H</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;<a class="code" href="Message_8h.html">Message.h</a>&gt;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;fcntl.h&gt;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;unistd.h&gt;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;termios.h&gt;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;cstring&gt;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="foldopen" id="foldopen00015" data-start="{" data-end="};">
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="classPiBus.html">   15</a></span><span class="keyword">class </span><a class="code hl_class" href="classPiBus.html">PiBus</a> {</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <a class="code hl_function" href="classPiBus.html#a9853498069111c8c88ca2cffc5b2890c">PiBus</a>();</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <a class="code hl_function" href="classPiBus.html#a38a8474d8d40fdd48b045a3903eba118">~PiBus</a>();</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classPiBus.html#abcd11a865c6e1f41f0844afb870d51d8">openSerial</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* <a class="code hl_variable" href="Relaxstoel_8cpp.html#a63c89c04d1feae07ca35558055155ffb">port</a>, <span class="keywordtype">int</span> baud);</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classPiBus.html#a180f3cca54d8703debc654f3108244de">send</a>(<a class="code hl_enumeration" href="Message_8h.html#a1bc3ccf4d567ca83c993c3aaa8124904">MessageType</a> type, <span class="keyword">const</span> <span class="keywordtype">char</span>* data);</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    std::pair&lt;MessageType, std::string&gt; <a class="code hl_function" href="classPiBus.html#adcd52bb6007ee7e84783bd0a111efde3">poll</a>();</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keywordtype">int</span> fd;</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>};</div>
 </div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#endif </span><span class="comment">// PIBUS_H</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="preprocessor">#endif </span><span class="comment">// PIBUS_H</span></div>
 <div class="ttc" id="aMessage_8h_html"><div class="ttname"><a href="Message_8h.html">Message.h</a></div><div class="ttdoc">Definieert de mogelijke berichttypes en de structuur voor berichten.</div></div>
-<div class="ttc" id="aMessage_8h_html_a1bc3ccf4d567ca83c993c3aaa8124904"><div class="ttname"><a href="Message_8h.html#a1bc3ccf4d567ca83c993c3aaa8124904">MessageType</a></div><div class="ttdeci">MessageType</div><div class="ttdoc">Definieert de mogelijke berichttypes die kunnen worden verzonden.</div><div class="ttdef"><b>Definition</b> Message.h:28</div></div>
+<div class="ttc" id="aMessage_8h_html_a1bc3ccf4d567ca83c993c3aaa8124904"><div class="ttname"><a href="Message_8h.html#a1bc3ccf4d567ca83c993c3aaa8124904">MessageType</a></div><div class="ttdeci">MessageType</div><div class="ttdoc">Definieert de mogelijke berichttypes die kunnen worden verzonden.</div><div class="ttdef"><b>Definition</b> Message.h:29</div></div>
 <div class="ttc" id="aRelaxstoel_8cpp_html_a63c89c04d1feae07ca35558055155ffb"><div class="ttname"><a href="Relaxstoel_8cpp.html#a63c89c04d1feae07ca35558055155ffb">port</a></div><div class="ttdeci">int port</div><div class="ttdef"><b>Definition</b> Relaxstoel.cpp:14</div></div>
-<div class="ttc" id="aclassPiBus_html"><div class="ttname"><a href="classPiBus.html">PiBus</a></div><div class="ttdef"><b>Definition</b> PiBus.h:10</div></div>
-<div class="ttc" id="aclassPiBus_html_a180f3cca54d8703debc654f3108244de"><div class="ttname"><a href="classPiBus.html#a180f3cca54d8703debc654f3108244de">PiBus::send</a></div><div class="ttdeci">void send(MessageType type, const char *data)</div><div class="ttdef"><b>Definition</b> PiBus.cpp:53</div></div>
+<div class="ttc" id="aclassPiBus_html"><div class="ttname"><a href="classPiBus.html">PiBus</a></div><div class="ttdef"><b>Definition</b> PiBus.h:15</div></div>
+<div class="ttc" id="aclassPiBus_html_a180f3cca54d8703debc654f3108244de"><div class="ttname"><a href="classPiBus.html#a180f3cca54d8703debc654f3108244de">PiBus::send</a></div><div class="ttdeci">void send(MessageType type, const char *data)</div><div class="ttdoc">Stuur een bericht over de bus.</div><div class="ttdef"><b>Definition</b> PiBus.cpp:53</div></div>
 <div class="ttc" id="aclassPiBus_html_a38a8474d8d40fdd48b045a3903eba118"><div class="ttname"><a href="classPiBus.html#a38a8474d8d40fdd48b045a3903eba118">PiBus::~PiBus</a></div><div class="ttdeci">~PiBus()</div><div class="ttdef"><b>Definition</b> PiBus.cpp:7</div></div>
 <div class="ttc" id="aclassPiBus_html_a9853498069111c8c88ca2cffc5b2890c"><div class="ttname"><a href="classPiBus.html#a9853498069111c8c88ca2cffc5b2890c">PiBus::PiBus</a></div><div class="ttdeci">PiBus()</div><div class="ttdef"><b>Definition</b> PiBus.cpp:5</div></div>
-<div class="ttc" id="aclassPiBus_html_abcd11a865c6e1f41f0844afb870d51d8"><div class="ttname"><a href="classPiBus.html#abcd11a865c6e1f41f0844afb870d51d8">PiBus::openSerial</a></div><div class="ttdeci">void openSerial(const char *port, int baud)</div><div class="ttdef"><b>Definition</b> PiBus.cpp:11</div></div>
-<div class="ttc" id="aclassPiBus_html_adcd52bb6007ee7e84783bd0a111efde3"><div class="ttname"><a href="classPiBus.html#adcd52bb6007ee7e84783bd0a111efde3">PiBus::poll</a></div><div class="ttdeci">std::pair&lt; MessageType, std::string &gt; poll()</div><div class="ttdef"><b>Definition</b> PiBus.cpp:67</div></div>
+<div class="ttc" id="aclassPiBus_html_abcd11a865c6e1f41f0844afb870d51d8"><div class="ttname"><a href="classPiBus.html#abcd11a865c6e1f41f0844afb870d51d8">PiBus::openSerial</a></div><div class="ttdeci">void openSerial(const char *port, int baud)</div><div class="ttdoc">Open een seriële poort voor communicatie.</div><div class="ttdef"><b>Definition</b> PiBus.cpp:11</div></div>
+<div class="ttc" id="aclassPiBus_html_adcd52bb6007ee7e84783bd0a111efde3"><div class="ttname"><a href="classPiBus.html#adcd52bb6007ee7e84783bd0a111efde3">PiBus::poll</a></div><div class="ttdeci">std::pair&lt; MessageType, std::string &gt; poll()</div><div class="ttdoc">Check of er berichten beschikbaar zijn op de bus.</div><div class="ttdef"><b>Definition</b> PiBus.cpp:67</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

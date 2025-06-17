@@ -6,7 +6,7 @@ var searchData=
   ['rejectmsg2_3',['RejectMsg2',['../Lichtkrant__Main_8c.html#a9f72f264c8ac493a3c4a22a666d1bb25',1,'Lichtkrant_Main.c']]],
   ['relaxstoel_2ecpp_4',['Relaxstoel.cpp',['../Relaxstoel_8cpp.html',1,'']]],
   ['rfid_2ecpp_5',['RFID.cpp',['../RFID_8cpp.html',1,'']]],
-  ['rgb_6',['rgb',['../Message_8h.html#a1bc3ccf4d567ca83c993c3aaa8124904a889574aebacda6bfd3e534e2b49b8028',1,'RGB:&#160;Message.h'],['../src_2balie_8c.html#afe42472c55e7e5df52b8aaca94d0fa7e',1,'rgb:&#160;balie.c'],['../lib_2Balie_2src_2balie_8c.html#afe42472c55e7e5df52b8aaca94d0fa7e',1,'rgb:&#160;balie.c']]],
+  ['rgb_6',['rgb',['../Message_8h.html#a1bc3ccf4d567ca83c993c3aaa8124904a889574aebacda6bfd3e534e2b49b8028',1,'RGB:&#160;Message.h'],['../balie_8c.html#afe42472c55e7e5df52b8aaca94d0fa7e',1,'rgb:&#160;balie.c']]],
   ['rpia_2ecpp_7',['rpia.cpp',['../rpia_8cpp.html',1,'']]],
   ['rpib_2ecpp_8',['rpib.cpp',['../rpib_8cpp.html',1,'']]],
   ['rs485serial_9',['RS485Serial',['../STMEntree_8cpp.html#a07517453202d7e5e39195d4b905e200d',1,'STMEntree.cpp']]],

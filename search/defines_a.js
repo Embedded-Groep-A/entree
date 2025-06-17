@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['vcp_5frx_5fgpio_5fport_0',['VCP_RX_GPIO_Port',['../balie_8h.html#a33fdfa4b512c0ea11076717895dd7dc5',1,'balie.h']]],
-  ['vcp_5frx_5fpin_1',['VCP_RX_Pin',['../balie_8h.html#a4e0537e49653a854046dd58605e96446',1,'balie.h']]],
-  ['vcp_5ftx_5fgpio_5fport_2',['VCP_TX_GPIO_Port',['../balie_8h.html#ae228a6f362edd36e3276281e382eb557',1,'balie.h']]],
-  ['vcp_5ftx_5fpin_3',['VCP_TX_Pin',['../balie_8h.html#ad43edd1e43c01706ad8c4c513a0e361d',1,'balie.h']]]
+  ['waitforcommand_0',['WAITFORCOMMAND',['../Lichtkrant__Main_8c.html#a61523f0de4aa90767ac4743ce7809eac',1,'Lichtkrant_Main.c']]],
+  ['wegwezen_1',['WEGWEZEN',['../Lichtkrant__Main_8c.html#aeb9025e7af458580877fd86782d3bcdd',1,'Lichtkrant_Main.c']]],
+  ['welkom_2',['WELKOM',['../Lichtkrant__Main_8c.html#adf9df263f89a9cc1e6e96977a7447672',1,'Lichtkrant_Main.c']]]
 ];

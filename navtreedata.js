@@ -50,8 +50,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"Lichtkrant__Main_8c.html",
-"dir_b6be43c344cd2e478d06a08e68ef4e22.html"
+"LichtkrantH_8c.html",
+"index.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

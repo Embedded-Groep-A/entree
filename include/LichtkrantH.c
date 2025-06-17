@@ -1,3 +1,4 @@
+///De array met alle nummers, elk 3 bytes groot
 const uint8_t NumberArray[]={//30bytes groot
 0b01111100,0b01000100,0b01111100,//0
 0b00100100,0b01111100,0b00000100,//1
@@ -9,6 +10,7 @@ const uint8_t NumberArray[]={//30bytes groot
 0b01001100,0b01010000,0b01100000,//7
 0b01111100,0b01010100,0b01111100,//8
 0b01110100,0b01010100,0b01111100};//9
+///De array met alle getallen, elk 3 bytes groot
 const uint8_t LetterArray[]={//87bytes groot
 0b00111100,0b01010000,0b00111100,//a
 0b01111100,0b01010100,0b00101000,//b
@@ -37,7 +39,7 @@ const uint8_t LetterArray[]={//87bytes groot
 0b01110000,0b00011100,0b01110000,//y
 0b01001100,0b01010100,0b01100100,//z
 0b00000000,0b00000000,0b00000000};//spatie ookwel "["
-
+///bevat alleen * en % voor temp/vocht displayen, paste niet zo goed in de andere arrays
 const uint8_t SpecialCharArray[]={//6bytes groot
 0b01100000,0b01100000,0b00000000,//graden *
 0b01001100,0b00010000,0b01100100};//percent %

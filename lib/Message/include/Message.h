@@ -25,6 +25,7 @@
  * - STATE: On/Off signaal voor lampen en stoel.
  * - TEXT: Text sturen [testing].
  */
+
 enum class MessageType : uint8_t {
     UNKNOWN = 0,
     RGB = 1,

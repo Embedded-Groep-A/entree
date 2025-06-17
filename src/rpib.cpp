@@ -1,9 +1,15 @@
+/*!
+ * \file rpia.cpp
+ * \brief code voor PI B
+ */
 #include "Socket.h"
 #include <iostream>
 
 int main() {
     Socket socket;
+    //poort waar de socket op draait
     int port = 8181;
+    //hoeveel clients er maximaal tegelijk kunnen verbinden
     int backlog = 5;
 
     socket.host(port, backlog);

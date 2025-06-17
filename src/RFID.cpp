@@ -15,10 +15,11 @@ const char *password = "NSELabWiFi";
 const char *host = "145.52.127.103";      
 const int port = 8181;                     
 
-WiFiSocket wifiSocket;                     
-/// RFID pinnen op de Wemos D1 mini
-#define RST_PIN D3                         // Reset-pin van de MFRC522-module
-#define SS_PIN  D4                         // Slave Select-pin van de MFRC522-module
+WiFiSocket wifiSocket;
+// Reset-pin van de MFRC522-module                    
+#define RST_PIN D3
+// Slave Select-pin van de MFRC522-module                         
+#define SS_PIN  D4                         
 
 MFRC522 mfrc522(SS_PIN, RST_PIN);          
 

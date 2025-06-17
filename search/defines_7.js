@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['tvbuiten_0',['TVBUITEN',['../Lichtkrant__Main_8c.html#a6035480433b15702ce951be45c7da48f',1,'Lichtkrant_Main.c']]]
+  ['rst_5fpin_0',['RST_PIN',['../RFID_8cpp.html#a36932b0e869e0114f32e255f61306d6b',1,'RFID.cpp']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['wifisocket_0',['WiFiSocket',['../classWiFiSocket.html#ad43ff7b38fca4953a0cb992a40215973',1,'WiFiSocket']]]
+  ['verwerkdeurbel_0',['verwerkDeurbel',['../STMEntree_8cpp.html#afa8ef7d25c8fcfe76df5a12eb293e148',1,'STMEntree.cpp']]]
 ];
